@@ -52,7 +52,7 @@ Read [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/require
 > By setting those two vars you can get logs of your heroku app, set var, edit var, delete vars , check dyno usage and update bot. 
 > Those two vars are not Mandatory! You can leave them blank too. 
     
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yansaii/Yukkianyar">
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Yansaii/Yukianyar">
   <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-aqua?style=flat&logo=heroku" width="325" height="50.100" /></a></p>
 
 </details>
