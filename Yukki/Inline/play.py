@@ -156,7 +156,9 @@ def secondary_markup(videoid, user_id):
                 text="•ᴍᴇɴᴜ•", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/RuangTerbukaa"
-            ),      
+            ),
+        ],
+        [      
             InlineKeyboardButton(text="•ᴄʟᴏsᴇ•", callback_data=f'close')
             ],
     ]
@@ -190,7 +192,9 @@ def primary_markup(videoid, user_id, current_time, total_time):
                 text="•ᴍᴇɴᴜ•", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/{SUP_CHANNEL}"
-            ),      
+            ),
+        ],
+        [      
             InlineKeyboardButton(text="•ᴄʟᴏsᴇ•", callback_data=f'close')
             ],
     ]
@@ -205,6 +209,8 @@ def timer_markup(videoid, user_id, current_time, total_time):
             ),
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/RuangTerbukaa"
             ),
+        ],
+        [
             InlineKeyboardButton(text="•ᴄʟᴏsᴇ•", callback_data=f'close')
             ],
     ]
@@ -222,6 +228,8 @@ def audio_markup(videoid, user_id, current_time, total_time):
             ),
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/RuangTerbukaa"
             ),
+        ],
+        [
             InlineKeyboardButton(text="•ᴄʟᴏsᴇ•", callback_data=f'close')
             ],
     ]
@@ -236,6 +244,8 @@ def audio_timer_markup_start(videoid, user_id, current_time, total_time):
             ),
             InlineKeyboardButton(text="•ᴄʜᴀɴɴᴇʟ•", url=f"https://t.me/RuangTerbukaa"
             ),
+        ],
+        [
             InlineKeyboardButton(text="•ᴄʟᴏsᴇ•", callback_data=f'close')
             ],
     ]
